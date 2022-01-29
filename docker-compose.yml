@@ -1,0 +1,7 @@
+version: "3"
+services:
+  dj-snake:
+    image: discord-dj-snake
+    build: .
+    env_file:
+      - .env
